@@ -58,7 +58,7 @@ export const Form = ({ firstName, lastName, subject, message, send}: IContactFor
     }
   };
   const inputStyle = "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 bg-white leading-tight focus:outline-none focus:shadow-outline";
-  const textAreaStyles = "block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500";
+  const textAreaStyles = "block p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500";
 
   return (
     <form className="bg-white shadow-md rounded  px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit(sendMail)}>

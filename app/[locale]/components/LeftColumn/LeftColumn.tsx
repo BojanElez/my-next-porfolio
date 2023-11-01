@@ -8,7 +8,7 @@ export const LeftColumn = () => {
   const navList = ["about", "skills", "experience", "education", "contact"];
 
   return (
-    <div className="flex flex-col justify-between md:w-full lg:w-5/12 py-20">
+    <div className="flex flex-col justify-between xs:w-full lg:w-5/12 py-20">
       <Info />
       <Navigation navList={navList}/>
       <Social />

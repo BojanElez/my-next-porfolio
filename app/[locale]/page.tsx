@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       <main className="flex h-[calc(100vh-70px)]">
-        <div className="flex sm:flex-wrap lg:flex-nowrap gap-x-24">
+        <div className="flex xs:flex-wrap lg:flex-nowrap gap-x-24">
           <LeftColumn />
           <RightColumn />
         </div>
