@@ -27,7 +27,7 @@ export const ExperienceItem = ({ children, title, projects, rangeEn, rangeSr }: 
         <div className="w-3/5 ">
           <h4>{t("projects")}</h4>
           {children}
-          <Modal title="Vega IT" projects={projects} showMore={t("showMore")} />
+          <Modal title={title} projects={projects} showMore={t("showMore")} />
         </div>
       </div>
     </div>

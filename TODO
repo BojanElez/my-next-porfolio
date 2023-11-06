@@ -1,9 +1,6 @@
-1. Modal Icon Close     - InProgress
+1. Form Validation - Done
 2. Remove any
 3. Performance
-   - code
-   - images
-   - video
    - accessibility
 4. Check Typos
 5. Check Code
@@ -12,13 +9,4 @@
 7. Check Translations
 8. Remove unnecessary dependencies
 9. Add Readme with screenshot
-10. Make Video
-11. Host Application
-
-// Later
-1. Icons for Technologies ??
-2. See translations to put
-   in Client Component
-3. Translation Schema??
-4. Add 5 more components (button)
-5. Css Classes reduce
+10. Textarea Fix Height - Done

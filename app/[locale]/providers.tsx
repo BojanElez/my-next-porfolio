@@ -14,7 +14,7 @@ export default function Providers({ children }: IProviderChildren): JSX.Element 
   }, []);
 
   return (
-    <div>
+    <div className="max-h-screen">
       {!mounted ? children : <ThemeProvider>{children}</ThemeProvider> }
     </div>
   )

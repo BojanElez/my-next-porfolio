@@ -38,19 +38,26 @@
 }
 
 @layer utilities {
-    @variants responsive {
-      /* Hide scrollbar for Chrome, Safari and Opera */
-      .no-scrollbar::-webkit-scrollbar {
-          display: none;
-      }
-
-      /* Hide scrollbar for IE, Edge and Firefox */
-      .no-scrollbar {
-          -ms-overflow-style: none;  /* IE and Edge */
-          scrollbar-width: none;  /* Firefox */
-      }
+  @variants responsive {
+    ::-webkit-scrollbar { 
+      visibility: hidden;
+    }
+    .scrollbar::-webkit-scrollbar {
+      visibility: visible;
+      transition: .4s ease-in-out;
+      width: 8px;
+    } 
+    .scrollbar::-webkit-scrollbar-track {
+      background: #0284c7;
+      border-radius: 5px;
+    }   
+    .scrollbar::-webkit-scrollbar-thumb {
+      background-color: #112644;
+      border-radius: 14px;
+      border: 1px solid #0284c7;
     }
   }
+}
 
 @media only screen and (min-width: 540px) {
   .mobile-view {

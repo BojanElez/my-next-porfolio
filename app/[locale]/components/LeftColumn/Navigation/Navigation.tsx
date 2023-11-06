@@ -1,12 +1,12 @@
 'use client'
 import Link from "next-intl/link";
 import { NavText } from "./NavText";
-
 interface INavigationProps {
-  navList: any,
+  navListTranslation: string[];
+  navList: string[];
 }
 
-export const Navigation = ({navList}: INavigationProps) => {
+export const Navigation = ({ navList, navListTranslation }: INavigationProps) => {
   const scrollNavigation = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
 
@@ -25,12 +25,12 @@ export const Navigation = ({navList}: INavigationProps) => {
   return (
     <nav>
       <ul>
-        {navList.map((navItem: any, index: number) => {
+        {navListTranslation.map((navItem: any, index: number) => {
           return (
             <li className="group flex items-center py-2" key={index}>
               <span className={`${navLine}`}></span>
               <span className={`${navText}`}>
-                <Link href={`#${navItem}`} onClick={scrollNavigation}>
+                <Link href={`#${navList[index]}`} onClick={scrollNavigation}>
                   {navItem}
                 </Link>
               </span>

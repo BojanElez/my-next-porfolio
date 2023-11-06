@@ -6,8 +6,8 @@
     "experience": "Iskustvo",
     "education": "Obrazovanje",
     "contact": "Kontakt",
-    "aboutDescription1": "Zdravo, ja sam Full Stack inženjer sa 5 godina iskustva u HTML, CSS,  React i Node.js. Uživam da koristim kreativnost i tehnologiju za izradu veb stranice prilagođene korisnicima. Dobar sam u rešavanju teških problema i kreiranje skalabilnih aplikacija.ed da doprinesem svojim veštinama i strastim vaš razvojni tim.",
-    "aboutDescription2": "Uvek sam željan da učim i da idem u korak trendovi u industriji. Dobro radim u timovima i verujem u jasno komunikacija. Uzbuđen sam što mogu da doprinesem svojim veštinama i strašću vaš razvojni tim.",
+    "aboutDescription1": "Zdravo, ja sam Full Stack inženjer sa 5 godina iskustva u HTML, CSS,  React i Node.js. Uživam da koristim kreativnost i tehnologiju za izradu veb stranice prilagođene korisnicima. Dobar sam u rešavanju teških problema i kreiranje skalabilnih aplikacija.",
+    "aboutDescription2": "Uvek sam željan da učenja i idem u korak trendovima u industriji. Dobro radim u timovima i verujem u jasnu komunikaciju. Uzbuđen sam što mogu da doprinesem svojim veštinama i strašću vašem razvojnom tim.",
     "workExperience" : "Radno Iskustvo",
     "january": "Januar",
     "february": "Februar",
@@ -24,7 +24,10 @@
     "projects": "Projekti",
     "present": "Trenutno",
     "highSchool": "Srednja Škola",
+    "elSchool": "Elektrotehnička Škola",
     "collage": "Fakultet",
+    "course": "Kurs",
+    "engineering": "Fakultet Inženjerskih Nauka",
     "firstName": "Ime",
     "lastName": "Prezime",
     "subject": "Naslov",
@@ -33,6 +36,11 @@
     "fullResume": "Vidi Celu Biografiju",
     "footerText": "Kodirano u Visual Studio Code od strane vaših. Napravljen u Next.js i Tailwind CSS-u, primenjen sa Vercel-om",
     "techStack": "Tehnologije",
-    "showMore": "Prikazi Vise"
+    "showMore": "Prikazi Vise",
+    "firstNameRequired": "Ime je obabezno",
+    "lastNameRequired":  "Prezime je obabezno",
+    "messageRequired": "Poruka je obabezna",
+    "emailRequired": "Email-adresa je obabezna",
+    "subjectRequired": "Naslov je obabezan"
   }
 }

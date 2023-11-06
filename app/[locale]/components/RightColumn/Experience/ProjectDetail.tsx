@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import { useTranslation } from 'react-i18next';
 import React from 'react';
 
 interface IProjectDetailsProp {

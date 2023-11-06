@@ -24,7 +24,10 @@
     "present": "Present",
     "projects": "Projects",
     "highSchool": "High School",
+    "elSchool": "Electrical School",
+    "engineering": "Faculty of Engineering University",
     "collage": "Collage",
+    "course": "Course",
     "firstName": "First Name",
     "lastName": "Last Name",
     "subject": "Subject",
@@ -33,6 +36,11 @@
     "fullResume": "View Full Resume",
     "footerText": "Coded in Visual Studio Code. Built with Next.js and Tailwind CSS, deployed with Vercel",
     "techStack": "Tech Stack",
-    "showMore": "Show More"
+    "showMore": "Show More",
+    "firstNameRequired": "First Name field is required",
+    "lastNameRequired": "Last Name is required",
+    "messageRequired": "Message is required",
+    "emailRequired": "Email is required",
+    "subjectRequired": "Subject is required"
   }
 }

@@ -7,8 +7,8 @@ import { ThemeSwitcher } from "./components/ThemeSwitcher";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-9/12 mx-auto p-2 min-h-screen">
-      <div className="flex">
+    <div className="flex flex-col w-9/12 mx-auto min-h-[calc(100%+100px)]">
+      <div className="flex p-2">
         <ThemeSwitcher />
         <div className="ml-auto">
           <Link href="/" locale="en" className="mr-5">
