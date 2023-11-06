@@ -37,10 +37,10 @@
     "footerText": "Kodirano u Visual Studio Code od strane vaših. Napravljen u Next.js i Tailwind CSS-u, primenjen sa Vercel-om",
     "techStack": "Tehnologije",
     "showMore": "Prikazi Vise",
-    "firstNameRequired": "Ime je obabezno",
-    "lastNameRequired":  "Prezime je obabezno",
-    "messageRequired": "Poruka je obabezna",
-    "emailRequired": "Email-adresa je obabezna",
-    "subjectRequired": "Naslov je obabezan"
+    "firstNameRequired": "Ime je obavezno",
+    "lastNameRequired":  "Prezime je obavezno",
+    "messageRequired": "Poruka je obavezna",
+    "emailRequired": "Email-adresa je obavezna",
+    "subjectRequired": "Naslov je obavezan"
   }
 }
