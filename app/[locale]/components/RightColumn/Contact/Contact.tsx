@@ -6,7 +6,7 @@ export const Contact = () => {
   const t = useTranslations('Index');
 
   return (
-    <section className="w-full pt-10" id="contact">
+    <section id="contact" className="w-full pt-10">
       <Subtitle tag="h2">{t("contact")}</Subtitle>
       <ul className="">
         <li className="flex items-center pr-2 pb-2">

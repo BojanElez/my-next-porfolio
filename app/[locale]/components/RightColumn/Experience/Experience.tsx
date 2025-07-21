@@ -8,7 +8,7 @@ export const Experience = () => {
   const t = useTranslations('Index');
 
   return (
-    <section className="pt-10" id="experience">
+    <section id="experience" className="pt-10">
       <Subtitle tag="h2">{t("workExperience")}</Subtitle>
       {experience.map((item) => (
         <ExperienceItem

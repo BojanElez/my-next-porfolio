@@ -42,7 +42,7 @@ export const Skills = () => {
   const renderSkillSection = (title: string, skills: string[]) => (
     <div className="mb-6">
       <h3 className="text-lg font-semibold mb-3 text-gray-700">{title}</h3>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap w-[90%]">
         {skills.map((skill, index) => (
           <div
             key={index}
@@ -56,7 +56,7 @@ export const Skills = () => {
   );
 
   return (
-    <section className="pt-10" id="skills">
+    <section id="skills" className="pt-10">
       <Subtitle tag="h2">{t("skills")}</Subtitle>
       <div>
         {renderSkillSection("Programming Languages & Libraries", programmingLanguagesAndLibraries)}
