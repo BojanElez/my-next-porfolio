@@ -22,7 +22,7 @@ export const Experience = () => {
             <ProjectDetail
               key={project.id}
               index={index+1}
-              projectName={project.name}
+              projectName={project.domainName}
               techStack={project.techStack}
               technologies={project.techStack}
             />

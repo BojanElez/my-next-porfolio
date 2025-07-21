@@ -32,10 +32,9 @@ export const Modal = ({ title, projects, showMore }: IModalProps) => {
                   {projects.map((project) => (
                     <div key="project.id">
                       <div className="text-slate-500">
-                        <Subtitle tag="h2">{project.name}</Subtitle>
+                        <Subtitle tag="h2">{project.domainName}</Subtitle>
                       </div>
                       <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                        Domain: {project.domain}
                       </p>
                       <p className="my-4 text-slate-500 text-lg leading-relaxed">
                         {project.projectDescription}
