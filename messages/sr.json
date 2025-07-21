@@ -1,13 +1,13 @@
 {
   "Index": {
-    "infoText": "Pravim pristupačne, inkluzivne proizvode i digitalna iskustva za veb.",
+    "infoText": "Full Stack Developer sa strašću za kreiranje modernih, skalabilnih veb aplikacija sa čistim kodom i odličnim korisničkim iskustvom.",
     "about": "O Meni",
     "skills": "Veštine",
     "experience": "Iskustvo",
     "education": "Obrazovanje",
     "contact": "Kontakt",
-    "aboutDescription1": "Zdravo, ja sam Full Stack inženjer sa 5 godina iskustva u HTML, CSS,  React i Node.js. Uživam da koristim kreativnost i tehnologiju za izradu veb stranice prilagođene korisnicima. Dobar sam u rešavanju teških problema i kreiranje skalabilnih aplikacija.",
-    "aboutDescription2": "Uvek sam željan da učenja i idem u korak trendovima u industriji. Dobro radim u timovima i verujem u jasnu komunikaciju. Uzbuđen sam što mogu da doprinesem svojim veštinama i strašću vašem razvojnom tim.",
+    "aboutDescription1": "Zdravo, ja sam Full Stack inženjer sa {years} godina iskustva u HTML, CSS, React i Node.js. Uživam da koristim kreativnost i tehnologiju za izradu veb stranice prilagođene korisnicima. Dobar sam u rešavanju teških problema i kreiranje skalabilnih aplikacija.",
+    "aboutDescription2": "Uvek sam željan da učenja i idem u korak trendovima u industriji. Dobro radim u timovima i verujem u jasnu komunikaciju. Uzbuđen sam što mogu da doprinesem svojim veštinama i strašću vašem razvojnom tim.",
     "workExperience" : "Radno Iskustvo",
     "january": "Januar",
     "february": "Februar",

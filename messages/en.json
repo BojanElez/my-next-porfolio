@@ -1,13 +1,13 @@
 {  
   "Index": {
-    "infoText": "I build accessible, inclusive products and digital experiences for the web.",
+    "infoText": "Full Stack Developer passionate about creating modern, scalable web applications with clean code and great user experience.",
     "about": "About",
     "skills": "Skills",
     "experience": "Experience",
     "education": "Education",
     "contact": "Contact",
-    "aboutDescription1": "Hi, I’m a Full Stack Engineer with 5 years of experience in HTML, CSS, React, and Node.js. I enjoy using creativity and technology to make user-friendly websites. I’m good at solving tough problems and creating scalable apps.ed to contribute my skills and passion to your development team.",
-    "aboutDescription2": "I’m always eager to learn and keep up with industry trends. I work well in teams and believe in clear communication. I’m excit to contribute my skills and passion to your development team.",
+    "aboutDescription1": "Hi, I'm a Full Stack Engineer with {years} years of experience in HTML, CSS, React, and Node.js. I enjoy using creativity and technology to make user-friendly websites. I'm good at solving tough problems and creating scalable apps.",
+    "aboutDescription2": "I'm always eager to learn and keep up with industry trends. I work well in teams and believe in clear communication. I'm excited to contribute my skills and passion to your development team.",
     "workExperience" : "Work Experience",
     "january": "January",
     "february": "February",
