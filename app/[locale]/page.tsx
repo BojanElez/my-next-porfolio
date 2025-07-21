@@ -2,7 +2,7 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { Footer } from "./components/Footer";
 import { LeftColumn } from "./components/LeftColumn/LeftColumn";
 import { RightColumn } from "./components/RightColumn/RightColumn";
-import Link from "next-intl/link";
+import Link from 'next/link'
 import { ThemeSwitcher } from "./components/ThemeSwitcher";
 
 export default function Home() {

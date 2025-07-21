@@ -1,6 +1,5 @@
 'use client'
-import Link from "next-intl/link";
-import { NavText } from "./NavText";
+import Link from 'next/link'
 interface INavigationProps {
   navListTranslation: string[];
   navList: string[];
