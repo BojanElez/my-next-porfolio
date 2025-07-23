@@ -2,19 +2,13 @@
 import { useState } from "react";
 import { Subtitle } from "./Subtitle"
 import { Button } from "./Button";
-import { IProject } from "@/app/types";
-
-interface IModalProps {
-  title: string,
-  showMore: string,
-  projects: IProject[],
-}
+import { IModalProps } from "./types";
 
 export const Modal = ({ title, projects, showMore }: IModalProps) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <Button buttonEvent={() => setShowModal(true)} text={showMore} />
+      <Button buttonEvent={() => setShowModal(true)} text={showMore} type="button" />
       {showModal ? (
         <>
           <div

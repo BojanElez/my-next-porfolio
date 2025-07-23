@@ -1,11 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Form } from "../../common/Form/Form";
 
-/**
- * Added additional child component
- * Child component (Child) can receive translation
- * Server component (Server) send translations
- */
 export const ContactForm = () => {
   const t = useTranslations('Index');
 

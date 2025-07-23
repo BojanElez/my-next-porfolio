@@ -1,12 +1,6 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
-
-interface IProjectDetailsProp {
-  index: number,
-  projectName: string,
-  techStack: string,
-  technologies: string,
-}
+import { IProjectDetailsProp } from './types';
 
 const ProjectDetail = ({ projectName, index, technologies}: IProjectDetailsProp) => {
   const t = useTranslations('Index');

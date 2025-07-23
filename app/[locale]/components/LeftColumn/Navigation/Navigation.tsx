@@ -1,9 +1,6 @@
 'use client'
 import Link from 'next/link'
-interface INavigationProps {
-  navListTranslation: string[];
-  navList: string[];
-}
+import { INavigationProps } from './types';
 
 export const Navigation = ({ navList, navListTranslation }: INavigationProps) => {
   const scrollNavigation = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {

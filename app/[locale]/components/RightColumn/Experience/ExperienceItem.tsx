@@ -2,15 +2,7 @@ import React from 'react';
 import { Modal } from '../../common/Modal';
 import { useTranslations } from 'next-intl';
 import { Subtitle } from '../../common/Subtitle';
-import { IProject } from "@/app/types";
-
-interface IExperienceItemProp {
-  children: React.ReactNode,
-  title: string,
-  projects: IProject[],
-  rangeEn: string,
-  rangeSr: string,
-}
+import { IExperienceItemProp } from './types';
 
 export const ExperienceItem = ({ children, title, projects, rangeEn, rangeSr }: IExperienceItemProp) => {
   const t = useTranslations('Index');

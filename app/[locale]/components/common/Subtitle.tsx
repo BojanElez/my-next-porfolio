@@ -1,7 +1,4 @@
-interface ISubChildrenProps {
-  children: React.ReactNode,
-  tag: string
-}
+import { ISubChildrenProps } from "./types";
 
 export const Subtitle = ({ children, tag }: ISubChildrenProps) => {
   return (

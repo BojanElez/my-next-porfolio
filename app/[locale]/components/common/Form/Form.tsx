@@ -4,27 +4,9 @@ import { useForm } from 'react-hook-form';
 
 import { NextResponse } from 'next/server';
 import { Button } from '../Button';
+import { IContactForm, IContactFormProps } from './types';
 
-interface IContactFormProps {
-  firstName: string,
-  firstNameError: string,
-  lastName: string,
-  lastNameError: string,
-  message: string,
-  messageError: string,
-  subject: string,
-  subjectError: string,
-  emailError: string,
-  send: string,
-}
 
-interface IContactForm  {
-  firstName: string,
-  lastName: string,
-  email: string,
-  message: string,
-  subject: string,
-}
 
 export const Form = (props: IContactFormProps) => {
   const { register, handleSubmit, formState: { errors } } = useForm<IContactForm>();

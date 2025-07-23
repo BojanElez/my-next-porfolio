@@ -1,11 +1,6 @@
-import { useTranslations } from 'next-intl';
-
-interface INavTextProps {
-	text: string;
-}
+import { INavTextProps } from "./types";
 
 export const NavText = ({ text }: INavTextProps) => {
-  // dconst t = useTranslations('Index');
 
   return (
     <>{text}</>

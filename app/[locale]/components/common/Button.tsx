@@ -1,9 +1,4 @@
-interface IButtonProps {
-	text: string,
-	type?: "button" | "submit" | "reset" | undefined,
-	variant?: string | undefined,
-	buttonEvent?: () => void
-}
+import { IButtonProps } from "./types";
 
 export const Button = ({ text, type, buttonEvent, variant }: IButtonProps) => {
   return (
