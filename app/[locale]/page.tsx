@@ -2,7 +2,7 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { Footer } from "./components/Footer";
 import { LeftColumn } from "./components/LeftColumn/LeftColumn";
 import { RightColumn } from "./components/RightColumn/RightColumn";
-import Link from 'next/link'
+import Link from "next/link";
 import { ThemeSwitcher } from "./components/ThemeSwitcher";
 
 export default function Home() {
@@ -11,10 +11,10 @@ export default function Home() {
       <div className="flex p-2">
         <ThemeSwitcher />
         <div className="ml-auto">
-          <Link href="/" locale="en" className="mr-5">
+          <Link href="/en" className="mr-5 cursor-pointer">
             <span className="fi fi-gb w-32 text-xl"></span>
           </Link>
-          <Link href="/" locale="sr">
+          <Link href="/sr" className="cursor-pointer">
             <span className="fi fi-rs w-32 text-xl"></span>
           </Link>
         </div>
