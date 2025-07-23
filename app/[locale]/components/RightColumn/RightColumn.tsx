@@ -16,7 +16,7 @@ export const RightColumn = () => {
       <Education />
       <Contact />
       <section className=" pt-5">
-        <a href='/CV-Bojan Elez-FE.pdf' target="_blank">{t("fullResume")} </a>
+        <a href='/CV-Bojan-Elez.pdf' target="_blank">{t("fullResume")} </a>
       </section>
     </div>
   )
