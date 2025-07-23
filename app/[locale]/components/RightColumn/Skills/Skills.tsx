@@ -5,21 +5,22 @@ import { Subtitle } from "../../common/Subtitle";
 export const Skills = () => {
   const t = useTranslations("Index");
   
-  const programmingLanguagesAndLibraries = [
+  const programmingLanguagesAndFrameworks = [
     "JavaScript ES5/ES6+",
     "React",
-    "Redux",
-    "Redux Toolkit",
-    "React Query",
     "NextJS",
     "NodeJS",
     "Express",
     "NestJs",
-    "SQL",
+  ];
+
+  const libraries = [
+    "Redux",
+    "Redux Toolkit",
+    "React Query",
     "Prisma",
-    "GraphQL",
-    "REST",
     "Jest",
+    "Storybook",
   ];
 
   const markupAndStyling = [
@@ -29,6 +30,12 @@ export const Skills = () => {
     "MaterialUI",
     "Bootstrap",
     "Tailwind",
+  ];
+
+  const databasesAndAPIs = [
+    "SQL",
+    "GraphQL",
+    "REST",
   ];
 
   const toolsAndOthers = [
@@ -59,9 +66,11 @@ export const Skills = () => {
     <section id="skills" className="pt-10">
       <Subtitle tag="h2">{t("skills")}</Subtitle>
       <div>
-        {renderSkillSection("Programming Languages & Libraries", programmingLanguagesAndLibraries)}
-        {renderSkillSection("Markup & Styling Languages", markupAndStyling)}
-        {renderSkillSection("Tools & Others", toolsAndOthers)}
+        {renderSkillSection(t("programmingLanguagesAndFrameworks"), programmingLanguagesAndFrameworks)}
+        {renderSkillSection(t("libraries"), libraries)}
+        {renderSkillSection(t("markupAndStyling"), markupAndStyling)}
+        {renderSkillSection(t("databasesAndAPIs"), databasesAndAPIs)}
+        {renderSkillSection(t("toolsAndOthers"), toolsAndOthers)}
       </div>
     </section>
   );
