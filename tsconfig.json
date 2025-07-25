@@ -29,7 +29,7 @@
     },
     "forceConsistentCasingInFileNames": true
   },
-  "types": ["react", "react-dom", "react-router-dom"],
+  "types": ["react", "react-dom", "react-router-dom", "jest", "@testing-library/jest-dom"],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
