@@ -15,7 +15,7 @@ export const Education = () => {
           </li>
           <li>
             {t("collage")}: 
-            <a href="http://www.mfkg.rs/sr/" className="ml-1"> {t("engineering")}</a>
+            <a href="https://fin.kg.ac.rs/sr/" className="ml-1"> {t("engineering")}</a>
           </li>
           <li>
             {t("course")}: 
