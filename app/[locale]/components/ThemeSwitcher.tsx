@@ -26,12 +26,17 @@ export const ThemeSwitcher = () => {
         type="checkbox"
         role="switch"
         onChange={toggleTheme}
-        id="flexSwitchCheckDefault" 
+        id="flexSwitchCheckDefault"
+        aria-label="Toggle dark and light theme"
       />
       <label
         className="inline-block pl-[0.15rem] hover:cursor-pointer"
         htmlFor="flexSwitchCheckDefault"
-      ></label>
+      >
+        <span className="sr-only">
+          Toggle dark and light theme
+        </span>
+      </label>
     </div>
   );
 };

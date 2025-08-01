@@ -11,11 +11,11 @@ export default function Home() {
       <div className="flex p-2">
         <ThemeSwitcher />
         <div className="ml-auto">
-          <Link href="/en" className="mr-5 cursor-pointer">
-            <span className="fi fi-gb w-32 text-xl"></span>
+          <Link href="/en" className="mr-5 cursor-pointer" aria-label="Switch to English">
+            <span className="fi fi-gb w-32 text-xl" aria-hidden="true"></span>
           </Link>
-          <Link href="/sr" className="cursor-pointer">
-            <span className="fi fi-rs w-32 text-xl"></span>
+          <Link href="/sr" className="cursor-pointer" aria-label="Switch to Serbian">
+            <span className="fi fi-rs w-32 text-xl" aria-hidden="true"></span>
           </Link>
         </div>
       </div>
