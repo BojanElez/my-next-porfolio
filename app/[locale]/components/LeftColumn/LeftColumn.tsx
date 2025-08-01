@@ -10,7 +10,7 @@ export const LeftColumn = () => {
 
 
   return (
-    <div className="flex flex-col justify-between xs:w-full lg:w-5/12 py-20">
+    <div className="left-column-container">
       <Info />
       <Navigation navListTranslation={navListTranslation} navList={navList}/>
       <Social />

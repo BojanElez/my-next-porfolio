@@ -15,17 +15,14 @@ export const Navigation = ({ navList, navListTranslation }: INavigationProps) =>
     });
   };
 
-  const navLine = 'nav-indicator mr-4 h-px w-12 bg-slate-600 transition-all group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none';
-  const navText = 'nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-neutral-50 group-focus-visible:text-neutral-50';
-
   return (
     <nav>
       <ul>
         {navListTranslation.map((navItem: any, index: number) => {
           return (
             <li className="group flex items-center py-2" key={index}>
-              <span className={`${navLine}`}></span>
-              <span className={`${navText}`}>
+              <span className="nav-line"></span>
+              <span className="nav-text">
                 <Link href={`#${navList[index]}`} onClick={scrollNavigation}>
                   {navItem}
                 </Link>

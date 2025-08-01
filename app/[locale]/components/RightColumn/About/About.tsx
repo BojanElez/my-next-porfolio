@@ -7,7 +7,7 @@ export const About = () => {
 
   return (
     <section id="about">
-      <p className="">
+      <p>
         {t("aboutDescription1", { years: yearsOfExperience })}
       </p>
       <p className="pt-3">

@@ -1,12 +1,9 @@
 'use client'
 import React from 'react'
 import { useForm } from 'react-hook-form';
-
 import { NextResponse } from 'next/server';
 import { Button } from '../Button';
 import { IContactForm, IContactFormProps } from './types';
-
-
 
 export const Form = (props: IContactFormProps) => {
   const { register, handleSubmit, formState: { errors } } = useForm<IContactForm>();
@@ -31,65 +28,63 @@ export const Form = (props: IContactFormProps) => {
       console.log('error', error);
     }
   };
-  const inputStyle = "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 bg-white leading-tight focus:outline-none focus:shadow-outline";
-  const textAreaStyles = "block p-2.5 w-full text-sm text-gray-900 bg-white h-24 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500";
 
   return (
-    <form className="bg-white shadow-md rounded  px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit(sendMail)}>
-      <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="firstName">
+    <form className="form-container" onSubmit={handleSubmit(sendMail)}>
+      <div className="form-section-first">
+        <label className="form-label" htmlFor="firstName">
           {props.firstName}
         </label>
         <input
           {...register("firstName", { required: props.firstNameError })}
-          className={`${inputStyle}`}
+          className="form-input"
           id="firstName"
           type="text"
         />
-        <p className='text-rose-500'>{errors.firstName?.message}</p>
+        <p className="form-error">{errors.firstName?.message}</p>
       </div>
-      <div className="mb-6">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="lastName">
+      <div className="form-section">
+        <label className="form-label" htmlFor="lastName">
           {props.lastName}
         </label>
         <input
           {...register("lastName", { required: props.lastNameError })}
-          className={`${inputStyle}`}
+          className="form-input"
           id="lastName"
           type="text"
         />
-        <p className='text-rose-500'>{errors.lastName?.message}</p>
+        <p className="form-error">{errors.lastName?.message}</p>
       </div>
-      <div className="mb-6">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+      <div className="form-section">
+        <label className="form-label" htmlFor="email">
           Email
         </label>
         <input
           {...register("email", { required: props.emailError })}
-          className={`${inputStyle}`}
+          className="form-input"
           id="email"
           type="email"
         />
-        <p className='text-rose-500'>{errors.email?.message}</p>
+        <p className="form-error">{errors.email?.message}</p>
       </div>
-      <div className="mb-6">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="subject">
+      <div className="form-section">
+        <label className="form-label" htmlFor="subject">
           {props.subject}
         </label>
         <input
           {...register("subject", { required: props.subjectError })}
-          className={`${inputStyle}`}
+          className="form-input"
           id="lastName"
           type="text"
         />
-        <p className='text-rose-500'>{errors.subject?.message}</p>
+        <p className="form-error">{errors.subject?.message}</p>
       </div>
-      <div className="mb-6">
-        <label htmlFor="message" className="block text-gray-700 text-sm font-bold mb-2">{props.message}</label>
-        <textarea {...register("message", { required: props.messageError })} id="message" className={`${textAreaStyles}`} placeholder={`${props.message}`}></textarea>
-        <p className='text-rose-500'>{errors.message?.message}</p>
+      <div className="form-section">
+        <label htmlFor="message" className="form-label">{props.message}</label>
+        <textarea {...register("message", { required: props.messageError })} id="message" className="form-textarea" placeholder={`${props.message}`}></textarea>
+        <p className="form-error">{errors.message?.message}</p>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="form-actions">
         <Button variant="bg-cyan-800 text-white" text={props.send}  type="submit"/>
       </div>
     </form>

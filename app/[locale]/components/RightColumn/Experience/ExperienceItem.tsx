@@ -8,7 +8,7 @@ export const ExperienceItem = ({ children, title, projects, rangeEn, rangeSr }: 
   const t = useTranslations('Index');
 
   return (
-    <div className="flex flex-col cursor-pointer transition duration-200 hover:bg-sky-600 gap-x-2 p-2 rounded-md">
+    <div className="experience-item-container">
       <div className="min-w-full pb-3">
         <Subtitle tag="h3">{title}</Subtitle>
       </div>

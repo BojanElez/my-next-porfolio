@@ -21,7 +21,7 @@ export const Experience = () => {
           {item.projects.map((project, index) => (
             <ProjectDetail
               key={project.id}
-              index={index+1}
+              index={index}
               projectName={project.domainName}
               techStack={project.techStack}
               technologies={project.techStack}

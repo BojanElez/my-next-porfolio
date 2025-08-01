@@ -9,7 +9,7 @@ export const RightColumn = () => {
   const t = useTranslations('Index');
 
   return (
-    <div className="flex flex-col justify-between xs:w-full lg:w-7/12 py-20 pr-3 overflow-y-scroll hover:scrollbar">
+    <div className="right-column-container">
       <About />
       <Skills />
       <Experience />

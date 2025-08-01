@@ -48,12 +48,12 @@ export const Skills = () => {
 
   const renderSkillSection = (title: string, skills: string[]) => (
     <div className="mb-6">
-      <h3 className="text-lg font-semibold mb-3 text-gray-700">{title}</h3>
-      <div className="flex flex-wrap w-[90%]">
+      <h3 className="skill-section-title">{title}</h3>
+      <div className="skill-section-container">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="p-2 rounded bg-slate-100 text-fuchsia-400 mr-3 mb-3"
+            className="skill-badge"
           >
             {skill}
           </div>
