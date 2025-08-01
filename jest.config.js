@@ -7,6 +7,9 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jest-environment-jsdom',
+  testEnvironmentOptions: {
+    customExportConditions: [''],
+  },
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   moduleNameMapping: {
     '^@/(.*)$': '<rootDir>/$1',
@@ -17,6 +20,8 @@ const customJestConfig = {
     '!app/**/layout.tsx',
     '!app/**/page.tsx',
   ],
+  // Remove problematic globals with jest.fn()
+  // Web API polyfills will be handled in jest.setup.js instead
 }
 
 module.exports = createJestConfig(customJestConfig)

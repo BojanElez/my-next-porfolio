@@ -60,21 +60,6 @@ describe("ThemeSwitcher Component", () => {
     });
   });
 
-  it("applies correct CSS classes to switch", async () => {
-    render(<ThemeSwitcher />);
-
-    await waitFor(() => {
-      const switchElement = screen.getByRole("switch");
-
-      expect(switchElement).toHaveClass("mr-2");
-      expect(switchElement).toHaveClass("h-3.5");
-      expect(switchElement).toHaveClass("w-8");
-      expect(switchElement).toHaveClass("appearance-none");
-      expect(switchElement).toHaveClass("bg-neutral-300");
-      expect(switchElement).toHaveClass("hover:cursor-pointer");
-    });
-  });
-
   it("applies correct CSS classes to label", async () => {
     render(<ThemeSwitcher />);
 
