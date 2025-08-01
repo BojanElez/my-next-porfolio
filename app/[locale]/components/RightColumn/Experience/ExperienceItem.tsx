@@ -12,7 +12,7 @@ export const ExperienceItem = ({ children, title, projects, rangeEn, rangeSr }: 
       <div className="min-w-full pb-3">
         <Subtitle tag="h3">{title}</Subtitle>
       </div>
-      <div className="flex min-w-full">
+      <div className="flex flex-col min-w-full">
         <div className="w-2/5">
           <h4>{rangeEn}</h4>
         </div>
