@@ -39,7 +39,7 @@
     "message": "Message",
     "send": "Send",
     "fullResume": "View Full Resume",
-    "footerText": "Coded in Visual Studio Code. Built with Next.js and Tailwind CSS, deployed with Vercel",
+    "footerText": "Coded in Visual Studio Code. Built with Next.js and Tailwind CSS, deployed with Vercel & AWS",
     "techStack": "Tech Stack",
     "showMore": "Show More",
     "firstNameRequired": "First Name field is required",

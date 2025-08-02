@@ -39,7 +39,7 @@
     "message": "Poruka",
     "send": "Pošalji",
     "fullResume": "Vidi Celu Biografiju",
-    "footerText": "Kodirano u Visual Studio Code od strane vaših. Napravljen u Next.js i Tailwind CSS-u, primenjen sa Vercel-om",
+    "footerText": "Kodirano u Visual Studio Code od strane vaših. Napravljen u Next.js i Tailwind CSS-u, primenjen u Vercel-om i  AWS-u",
     "techStack": "Tehnologije",
     "showMore": "Prikazi Vise",
     "firstNameRequired": "Ime je obavezno",
